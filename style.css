@@ -1,0 +1,89 @@
+body {
+		background-color: #2a1c4f;
+		background-size: cover;
+
+	}
+
+
+
+/***FONTE DO MENU APOIO***/
+.h3{
+	font-family: monospace;
+}
+
+/***MENU DO APOIO***/
+#menu{
+	list-style-type: none;
+	position: relative;
+	display: flex;
+	margin-left: 35%;
+	margin-right: 40%;
+	padding-left: 4%;
+	padding-right: 0%;
+	padding-top: 5%;
+	padding-bottom: 0%;
+}
+
+.liAPOIO{
+	display: inline-block;
+	padding-left: 30px;
+}
+
+#AP1{
+  width: 125px;
+  background-image: url('icon-plus.png');
+}
+/***POSIÇÃO DOS ÍCONES DO MENU***/
+.imgIcones{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  display: block;
+}
+
+
+.svg{
+	position: absolute;
+}
+
+/***ANIMAÇÃO***/
+.hello {
+    stroke-width: 1px;
+    stroke-dasharray: 600;    
+    animation: 5s write;
+}
+
+@keyframes write {
+    0% {
+      stroke-dashoffset: 600; 
+    }
+  100%{
+      stroke-dashoffset: 0;
+  }
+    
+}
+
+/***POSIÇÃO DO LINK INFERIOR***/
+.rectpos-inf{
+	fill: transparent;
+	width: 107px;
+	height: 204px;
+	x:14%;
+	y:60%;
+}
+
+/***POSIÇÃO DO LINK SUPERIOR***/
+.rectpos-sup{
+	fill: transparent;	
+	width: 344px;
+	height: 306px;
+	x: 56%;
+	y: 2%;
+}
+
+/* POSIÇÃO CHATBOT */
+.chat{
+	margin-left: 70%;
+	margin-top: -70%;
+	margin-bottom: 5%;
+}
